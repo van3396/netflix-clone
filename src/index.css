@@ -13,6 +13,7 @@ code {
 }
 
 #root {
+  /* margin-left: 10px; */
   display: flex;
   justify-content: center;
 }

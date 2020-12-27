@@ -1,12 +1,16 @@
+.row {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
 .row_posters {
   display: flex;
-  overflow-y: hidden;
+  overflow-y: scroll;
   overflow-x: scroll;
-  padding: 20px;
 }
 
- /* hides the scrollbar from left to right*/
-.row_posters::-webkit-scrollbar{
+/* hides the scrollbar from left to right*/
+.row_posters::-webkit-scrollbar {
   display: none;
 }
 
@@ -19,5 +23,13 @@
 }
 
 .row_poster:hover {
-  transform: scale(1.08);
+  transform: scale(1.09);
+}
+
+.row_posterLarge {
+  max-height: 250px;
+}
+
+.row_posterLarge:hover {
+  transform: scale(1.1);
 }
