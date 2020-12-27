@@ -1,3 +1,5 @@
+// require("./secret")
+
 const API_KEY = "6fdecd11a23129d834b0f090377bb940"
 
 const request = {
